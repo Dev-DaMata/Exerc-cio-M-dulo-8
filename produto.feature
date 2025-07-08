@@ -9,7 +9,7 @@
             Contexto:
             Dado que eu encontrei o meu produto
 
-            Cenário: Seleção de cor, tamanho e quantidade é obrigatoria
+            Esquema do Cenário: Seleção de cor, tamanho e quantidade é obrigatoria
             Quando Eu selecionar a <cor>
             E o <tamanho>
             E a <quantidade>
