@@ -9,8 +9,7 @@
             Dado que eu acesse a página de login da EBAC-SHOP
 
             Esquema do Cenário: Ao inserir dados válidos deve ser direcionado para a tela de checkout
-            Quando eu digitar o usuário <email>
-            E a senha <senha>
+            Quando eu digitar o usuário <email> e a <senha>
             Então deve rediracionar para a tela de checkout
 
             Exemplos:
@@ -20,6 +19,5 @@
             | "jose@ebac.com.br"  | "senhas@123" |
 
             Cenário: Ao inserir um dos campos inválidos deve exibir uma mensagem de alerta “Usuário ou senha inválidos”
-            Quando eu digitar o usuário inválido 'zeh@ebac.com.br'
-            E a senha 'senha@123'
+            Quando eu digitar o usuário inválido 'zeh@ebac.com.br' e a senha 'senha@123'
             Então deve exibir uma mensagem de alerta 'Usuário ou senha inválidos'

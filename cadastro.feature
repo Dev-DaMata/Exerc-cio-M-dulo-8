@@ -6,8 +6,7 @@
             Para finalizar minha compra
 
             Contexto:
-            Dado que eu queira comprar um produto
-            E esteja na pagina para concluir o meu cadastrado
+            Dado que eu queira comprar um produto e esteja na pagina para concluir o meu cadastrado
 
             Cenário: Deve ser cadastrado com todos os dados obrigatórios, marcado com asteriscos
             Quando eu cadastrar todos os campos marcados com asteriscos
@@ -15,7 +14,7 @@
 
             Esquema do Cenário: Não deve permitir campo e-mail com formato inválido. Sistema deve inserir uma mensagem de erro
             Quando eu adicionar um <email> com o formato inválido
-            Então o sistema deve retornar uma <Mensagem de erro>
+            Então o sistema deve retornar uma <mensagem>
 
             Exemplos:
             | email             | mensagem          |

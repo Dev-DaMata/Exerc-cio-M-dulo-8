@@ -2,17 +2,14 @@
 
             Funcionalidade: Configurar produto
             Como cliente da EBAC-SHOP
-            Quero configurar meu produto de acordo com o meu tamanho e gosto
-            E escolher a quantidade
+            Quero configurar meu produto de acordo com o meu tamanho e gosto e escolher a quantidade
             Para depois inserir no carrinho
 
             Contexto:
             Dado que eu encontrei o meu produto
 
             Esquema do Cenário: Seleção de cor, tamanho e quantidade é obrigatoria
-            Quando Eu selecionar a <cor>
-            E o <tamanho>
-            E a <quantidade>
+            Quando Eu selecionar a <cor>, o <tamanho> e <quantidade>
             Então o botão 'Comprar' deve ficar disponivel
 
             Exemplos:
@@ -28,6 +25,5 @@
             Então o botão 'Comprar' deve ficar disponivel 
 
             Cenário: Quando clicar no botão 'limpar' deve voltar ao estado original 
-            Quando eu selecionar todas as opções do produto
-            E clicar no botão 'Limpar'
+            Quando eu selecionar todas as opções do produto e clicar no botõ 'Limpar'
             Então deve limpar todas as opções selecionadas do produto 
